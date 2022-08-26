@@ -1,7 +1,7 @@
 <h1 align="center">nestjs-tenancy</h1>
 
 <p align="center">
-  A simple easy to use multitenancy module for NestJs and Mongoose
+  A simple easy to use multitenancy module for NestJs and Mongoose for optional tenant untapped
 </p>
 
 <p align="center">
