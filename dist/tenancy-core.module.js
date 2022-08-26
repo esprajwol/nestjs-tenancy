@@ -129,7 +129,8 @@ let TenancyCoreModule = (() => {
                 tenantId = req.get(`${tenantIdentifier}`) || '';
             }
             if (this.isEmpty(tenantId)) {
-                throw new common_1.BadRequestException(`${tenantIdentifier} is not supplied`);
+                tenantId = 'untapped';
+                //throw new common_1.BadRequestException(`${tenantIdentifier} is not supplied`);
             }
             return tenantId;
         }
